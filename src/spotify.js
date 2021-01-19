@@ -9,7 +9,7 @@ if (
 ) {
   redirectUri = "http://localhost:3000/";
 } else {
-  redirectUri = "https://spotify-clone-66927.firebaseapp.com";
+  redirectUri = "https://spotify-clone-66927.firebaseapp.com/";
 }
 const clientId = "4e01ede969fb4fde83c318a82290e52f";
 
