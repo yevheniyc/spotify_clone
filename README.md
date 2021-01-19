@@ -15,3 +15,7 @@
   - `firebase login`
   - `firebase init`
   - `firebase deploy`
+
+#### Data Layer
+
+To avoid prop drilling which complicates the code and makes it unmaintainable, we want to use Context API or Redux.
