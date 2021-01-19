@@ -8,9 +8,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import SongRow from "./SongRow";
 
 function Body({ spotify }) {
-  const [{ discover_weekly }, dispatch] = useStateProviderValue();
-
-  console.log(">>>>>>>>>>>>>>>>>>", discover_weekly);
+  const [{ discover_weekly }] = useStateProviderValue();
 
   return (
     <div className="body">

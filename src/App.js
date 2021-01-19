@@ -13,6 +13,7 @@ function App() {
   // we can access user (for example here) => const [{user}, dispatch] = useStateProviderValue()
   // dispatch allows us to shoot actions at the StateProvider(data layer) and return back values!
   const [{ user, token }, dispatch] = useStateProviderValue();
+  console.log(user);
 
   // NOTE: we could also pull in the whole data layer object, without distructuring
   // const [StateProvider, dispatch] = useStateProviderValue();
