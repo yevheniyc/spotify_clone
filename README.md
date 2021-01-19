@@ -1,5 +1,7 @@
 ### Spotify Clone
 
+[APP URL](https://spotify-clone-66927.firebaseapp.com/)
+
 1. User authentication: Spotify API (key): `4e01ede969fb4fde83c318a82290e52f`
 2. Scaling up/down (reposnive) - material ui
 3. React Context API (like REDUX)
